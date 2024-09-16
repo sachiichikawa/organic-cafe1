@@ -426,6 +426,13 @@ footer p{
         margin-top: 20%;
     }
 
+    .item > img{
+        object-fit: cover;
+        margin: 10px 2px;
+        text-align: center;
+    }
+
+
     /* CONTACT */
     #contact .page-title{
         margin-top: 40px;
@@ -435,7 +442,7 @@ footer p{
     input[type="text"],
     input[type="email"],
     textarea{
-        max-width: 100px;
+        max-width: 100%;
     }
 
     /* 店舗情報・地図 / SNS */
@@ -457,25 +464,7 @@ footer p{
 }
 
 
-    
-
-
-article{
-width: 60%;
-order: 2;}
-
-aside{
-width: 22%;
-order: 3;}
-
-.ad{
-order: 1;
-}
-
-
 .item > img{
-width: 240px;
-height: 200px;
 object-fit: cover;
 margin: 10px 2px;
 text-align: center;
