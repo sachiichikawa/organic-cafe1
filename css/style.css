@@ -374,18 +374,18 @@ footer p{
         margin-top: 20%;
     }
 
-    /* HOME */
+    /* NEWS */
     .news-contents{
         flex-direction: column;
     }
 
-    #news .page-title{
-        margin-top: 30px;
-    }
-
-    article,
+        article,
     aside{
         width:100%;
+    }
+    
+    #news .page-title{
+        margin-top: 30px;
     }
 
     aside{
